@@ -1,0 +1,154 @@
+@charset "UTF-8";
+body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, select, textarea, button, th, td, menu {
+  margin: 0;
+  padding: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+ul, dl, ol {
+  list-style: none; }
+
+img, fieldset, input[type="submit"] {
+  border: 0 none; }
+
+em {
+  font-style: normal; }
+
+strong {
+  font-weight: normal; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+button, input[type="button"] {
+  cursor: pointer;
+  border: 0 none; }
+
+a, button, input, img {
+  -webkit-touch-callout: none; }
+
+img {
+  /*pointer-events:none;*/
+  /*禁止图片的点击事件，例如长按保存图片*/ }
+
+input, select, textarea {
+  outline: none; }
+
+a {
+  text-decoration: none;
+  color: #000000; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.imgw {
+  overflow: hidden; }
+  .imgw img {
+    width: 100%;
+    vertical-align: middle; }
+
+.imgh {
+  overflow: hidden;
+  text-align: center; }
+  .imgh img {
+    height: 100%; }
+
+html, body {
+  /*禁止用户选择元素*/
+  -webkit-tap-highlight-color: transparent; }
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Heiti SC', 'Microsoft YaHei';
+  outline: 0;
+  -webkit-text-size-adjust: none; }
+
+body {
+  height: 100%;
+  margin: 0;
+  position: relative; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.lunbo_wrap {
+  position: relative;
+  /*border: 1px solid firebrick;*/
+  overflow: hidden;
+  width: 100%; }
+
+.pic_box {
+  height: 100%;
+  width: 9999px; }
+
+.pic_box li {
+  position: relative;
+  height: 100%;
+  float: left; }
+
+.pic_box li img {
+  width: 100%;
+  display: block; }
+
+.pannel {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 10%;
+  text-align: center; }
+
+.pannel li {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #b7b7b7;
+  margin-right: 4px; }
+
+#left_arrow,
+#right_arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  display: block;
+  width: 24px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #000;
+  opacity: .3; }
+
+#left_arrow:hover,
+#right_arrow:hover {
+  opacity: .5; }
+
+#left_arrow {
+  left: 80px; }
+
+#right_arrow {
+  right: 80px; }
+
+.pannel .active {
+  background: red;
+  border-color: red; }

@@ -1,0 +1,325 @@
+@charset "utf-8";
+@import "//at.alicdn.com/t/font_556925_ni940c4vqloko6r.css";
+.pl0 {
+    padding-left: 0;
+}
+
+.pr0 {
+    padding-right: 0;
+}
+
+.mb45 {
+    margin-bottom: 45px;
+}
+
+.mr {
+    margin-right: 50px;
+}
+
+.imgwrap {
+    text-align: center;
+    img {
+        width: 100%;
+    }
+}
+
+.web{
+    overflow-x:hidden ;
+}
+
+header {
+    padding-top: 50px;
+    .navbar-default {
+        background-color: #222222;
+        border: none;
+        .navbar-nav {
+            >.active {
+                >a {
+                    &,
+                    &:hover {
+                        background-color: #080808;
+                        color: #fff;
+                    }
+                }
+            }
+            >li {
+                >a {
+                    color: #9d9d9d;
+                }
+            }
+        }
+    }
+    .navbar-brand {
+        padding: 7px 6px;
+    }
+    .navbar {
+        margin-bottom: 0;
+    }
+}
+
+.brief {
+    .brief_title {
+        h2 {
+            font-size: 36px;
+            margin-top: 80px;
+            margin-bottom: 25px;
+        }
+        h4 {
+            font-size: 21px;
+            margin-bottom: 20px;
+        }
+    }
+    .brief_text {
+        margin-bottom: 64px;
+        p {
+            color: #2A2A2A;
+            font-size: 14px;
+            text-indent: 2em;
+            line-height: 29px;
+        }
+    }
+}
+
+.invite_big {
+    background: #8cc11f;
+    padding-bottom: 70px;
+    margin-bottom: 40px;
+    .invite_title {
+        h2 {
+            color: white;
+            font-size: 36px;
+            margin-top: 95px;
+            margin-bottom: 40px;
+        }
+    }
+    .invite {
+        .invite_left {
+            p {
+                font-size: 16px;
+                color: white;
+                line-height: 30px;
+            }
+        }
+        .invite_right {
+            p {
+                font-size: 16px;
+                color: white;
+                line-height: 30px;
+            }
+            .sec {
+                margin-top: 7px;
+            }
+            .mail {
+                width: 219px;
+                height: 49px;
+                background: white;
+                border-radius: 4px;
+                color: #8cc11f;
+                font-size: 24px;
+                text-align: center;
+                line-height: 49px;
+            }
+        }
+    }
+}
+
+.exploit {
+    border-bottom: 1px solid #d2d2d2;
+    padding-bottom: 50px;
+    h2 {
+        font-size: 25px;
+        color: #8cc11f;
+        margin-top: 70px;
+        margin-bottom: 28px;
+    }
+    dl {
+        dt {
+            font-size: 18px;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+        ol {
+            -webkit-padding-start: 35px;
+            li {
+                margin-bottom: 15px;
+                font-size: 14px;
+                &:last-of-type {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+.explo {
+    border: none;
+    margin-bottom: 50px;
+}
+
+.lianxi_big2 {
+    background: #f4f4f4;
+    padding-bottom: 43px;
+    .lianxi2 {
+        .lianxi_title {
+            h2 {
+                font-size: 36px;
+                margin: 35px 0;
+            }
+        }
+        .lianxi_small {
+            background: #fff;
+            margin-bottom: 20px;
+            border: 1px solid #e3e3e3;
+            .lianxi_pic {
+                padding: 15px 0;
+                img {
+                    width: 100%;
+                }
+            }
+            .lianxi_text {
+                height: 20px;
+                line-height: 20px;
+                p {
+                    color: #2A2A2A;
+                    font-size: 15px;
+                    line-height: 107px;
+                }
+            }
+        }
+    }
+}
+
+.brief_big {
+    background: #3b3b3b;
+    .brief {
+        padding: 20px 0;
+        .company {
+            ul {
+                margin-top: 10px;
+                li {
+                    float: left;
+                    list-style: none;
+                    margin-right: 14px;
+                    a {
+                        color: #a1a3ab;
+                        font-size: 14px;
+                    }
+                }
+            }
+            p {
+                color: #a1a3ab;
+                font-size: 12px;
+                a {
+                    color: #a1a3ab;
+                }
+            }
+            .lianxi_big {
+                font-size: 0;
+                line-height: 73px;
+                .lianxi {
+                    width: 38px;
+                    height: 38px;
+                    border-radius: 50%;
+                    background: #d8d8e0;
+                    text-align: center;
+                    line-height: 38px;
+                    display: inline-block;
+                    margin-right: 19px;
+                    &:last-of-type {
+                        margin-right: 0;
+                    }
+                    i {
+                        color: #4c4c52;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .nav {
+        >li {
+            >a {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .brief {
+        .brief_title {
+            h2 {
+                font-size: 1.5em;
+                margin-top: 25px;
+            }
+            h4 {
+                font-size: 1em;
+            }
+        }
+    }
+    .invite_big {
+        margin-top: 40px;
+        margin-bottom: 0;
+        .invite_title {
+            h2 {
+                font-size: 1.5em;
+                margin-top: 40px;
+                margin-bottom: 30px;
+            }
+        }
+        .invite {
+            p {
+                font-size: 0.8em;
+            }
+        }
+        .mail {
+            font-size: 0.8em;
+        }
+    }
+    .lianxi_big2 {
+        .lianxi2 {
+            .lianxi_title {
+                h2 {
+                    font-size: 1.5em;
+                }
+            }
+            .lianxi_small{
+                margin-right: 0;
+                padding-right: 0;
+                .lianxi_text{
+                    p{
+                        line-height: 20px;
+                        margin-top: 15px;
+                    }
+                }
+                .first_p{
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    .brief_big {
+        .brief {
+            .lianxi_big {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 1000px;
+        padding-left: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+}
